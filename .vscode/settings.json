@@ -15,6 +15,7 @@
     "idf.toolsPathWin": "C:\\Espressif",
     "idf.portWin": "COM11",
     "files.associations": {
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "semphr.h": "c"
     }
 }
