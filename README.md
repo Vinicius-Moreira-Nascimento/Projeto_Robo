@@ -13,11 +13,8 @@ O "Projeto Base para Integração entre Bluetooth, PWM e UART em RTOS" é um pla
 
 ### Hardware
 
-* A development board with any Espressif SoC which features MCPWM peripheral (e.g., ESP32-DevKitC, ESP-WROVER-KIT, etc.)
-* A USB cable for Power supply and programming
-* A RC servo motor, e.g. 
 
-*O "Software de Desenvolvimento Base" possui o principio de construir sistemas altamente personalizados e eficazes. Este conjunto de *ferramentas oferece uma base sólida para o desenvolvimento de software mais especificos , permitindo a integração de recursos avançados e funcionalidades *personalizadas. Abaixo, fornecemos uma breve descrição de como a integração com o hardware é alcançada:
+O "Software de Desenvolvimento Base" possui o principio de construir sistemas altamente personalizados e eficazes. Este conjunto de ferramentas oferece uma base sólida para o desenvolvimento de software mais especificos , permitindo a integração de recursos avançados e funcionalidades personalizadas. Abaixo, fornecemos uma breve descrição de como a integração com o hardware é alcançada:
 
 Conexões para o PWM :
 
