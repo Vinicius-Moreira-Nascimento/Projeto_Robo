@@ -26,10 +26,10 @@
 #include "esp_bt_device.h"
 #include "esp_spp_api.h"
 
-#define DESLIGAR 0   // COMANDO DESLIGAR  / DESATIVAR
-#define LIGAR 1      // COMANDO LIGAR / ACIONAR
-#define TOGGLE 2     // COMANDO PARA ALTERAR O ESTADO ATUAL
-#define BUF_SIZE 500 // Alocacao do buffer do uart na RAM
+#define DESLIGAR 0        // COMANDO DESLIGAR  / DESATIVAR
+#define LIGAR 1           // COMANDO LIGAR / ACIONAR
+#define TOGGLE 2          // COMANDO PARA ALTERAR O ESTADO ATUAL
+#define BUF_SIZE 500      // Alocacao do buffer do uart na RAM
 #define Size_Max_Data 500 // Alocacao do buffer do uart na RAM
 
 #define LED_ESP32 (GPIO_NUM_2) // PINO LATCH (RCLK) DO ESPANSOR DE OUTPUTS
@@ -41,24 +41,31 @@
 // defines PWM
 #define LEDC_TIMER LEDC_TIMER_0
 #define LEDC_MODE LEDC_LOW_SPEED_MODE
-#define LEDC_OUTPUT_IO (5) // Define the output GPIO
+#define LEDC_OUTPUT_IO (13) // Define the output GPIO
 #define LEDC_CHANNEL LEDC_CHANNEL_0
 #define LEDC_DUTY_RES LEDC_TIMER_13_BIT // Set duty resolution to 13 bits
 #define LEDC_DUTY (4095)                // Set duty to 50%. ((2 ** 13) - 1) * 50% = 4095 // vai de zero a 8190
 #define LEDC_FREQUENCY (5000)           // Frequency in Hertz. Set frequency at 5 kHz
 
+// defines PWM 2
+#define LEDC_TIMER_2 LEDC_TIMER_0
+#define LEDC_MODE_2 LEDC_LOW_SPEED_MODE
+#define LEDC_OUTPUT_IO_2 (5) // Define the output GPIO
+#define LEDC_CHANNEL_2 LEDC_CHANNEL_0
+#define LEDC_DUTY_RES_2 LEDC_TIMER_13_BIT // Set duty resolution to 13 bits
+#define LEDC_DUTY_2 (4095)                // Set duty to 50%. ((2 ** 13) - 1) * 50% = 4095 // vai de zero a 8190
+#define LEDC_FREQUENCY_2 (5000)           // Frequency in Hertz. Set frequency at 5 kHz
+
 // Define Bluetooth
 #define SPP_SERVER_NAME "SPP_SERVER"
 #define EXAMPLE_DEVICE_NAME "ESP_SPP_ACCEPTOR"
 
-// Define UART
-#define Max_Sequence_Length 10
-#define Sync_Byte 0x55
-
 char received_data[128];
 char contagem[100];
-uint16_t Velocidade_PWM = DESLIGAR;
 
+uint8_t Controle_ROBO = DESLIGAR;
+uint16_t Velocidade_Motor_1 = DESLIGAR;
+uint16_t Velocidade_Motor_2 = DESLIGAR;
 
 /// @brief Fução que Serve para a registrar os eventos base do bluetooth
 /// @param event Variavel de evento que marcar a entrada da recepção ou transmissão
@@ -111,10 +118,7 @@ static void esp_spp_cb(esp_spp_cb_event_t event, esp_spp_cb_param_t *param)
                param->data_ind.len, param->data_ind.handle);
         if (param->data_ind.len < 128)
         {
-            // esp_spp_write(param->write.handle, param->data_ind.len, param->data_ind.data);
             strncpy(received_data, (char *)param->data_ind.data, param->data_ind.len);
-            // Use printf to print the received data as characters
-            printf("\n\r Received data: %.*s \n\r", param->data_ind.len, (char *)param->data_ind.data);
             received_data[param->data_ind.len] = '\0';
         }
         esp_spp_write(param->write.handle, strlen(contagem), (uint8_t *)contagem);
@@ -144,209 +148,160 @@ static void esp_spp_cb(esp_spp_cb_event_t event, esp_spp_cb_param_t *param)
 /// @param arg Argumento para inicialização da task
 void xPWM(void *arg)
 {
-    char Velocidade[10];
-    uint16_t tamanho = DESLIGAR;
     while (1)
     {
-        vTaskDelay(pdMS_TO_TICKS(200));
-        sprintf(Velocidade, "%d", Velocidade_PWM);
-        tamanho = strlen(Velocidade);
+        switch (Controle_ROBO)
+        {
 
-        //
-        uart_write_bytes(UART_NUM_1, "\n\r Velocidade do PWM: ", 22);
-        uart_write_bytes(UART_NUM_1, Velocidade, tamanho);
-        uart_write_bytes(UART_NUM_1, "\n\r", 2);
-        //
+        case 0: // se receber desliga
+            Velocidade_Motor_1 = DESLIGAR;
+            Velocidade_Motor_2 = DESLIGAR;
+            ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, Velocidade_Motor_1);
+            ledc_set_duty(LEDC_MODE_2, LEDC_CHANNEL_2, Velocidade_Motor_2);
+            break;
+        case 1: // se receber Righ
+            Velocidade_Motor_1 = DESLIGAR;
+            Velocidade_Motor_2 = 3000;
+            ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, Velocidade_Motor_1);
+            ledc_set_duty(LEDC_MODE_2, LEDC_CHANNEL_2, Velocidade_Motor_2);
+            break;
+        case 2: // se receber Fright
+            Velocidade_Motor_1 = DESLIGAR;
+            Velocidade_Motor_2 = 3000;
+            ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, Velocidade_Motor_1);
+            ledc_set_duty(LEDC_MODE_2, LEDC_CHANNEL_2, Velocidade_Motor_2);
+            break;
+        case 3: // se receber Bright
+            Velocidade_Motor_1 = DESLIGAR;
+            Velocidade_Motor_2 = 3000;
+            ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, Velocidade_Motor_1);
+            ledc_set_duty(LEDC_MODE_2, LEDC_CHANNEL_2, Velocidade_Motor_2);
+            break;
+        case 4: // se receber Left
+            Velocidade_Motor_1 = 3000;
+            Velocidade_Motor_2 = DESLIGAR;
+            ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, Velocidade_Motor_1);
+            ledc_set_duty(LEDC_MODE_2, LEDC_CHANNEL_2, Velocidade_Motor_2);
+            break;
+        case 5: // se receber Fleft
+            Velocidade_Motor_1 = 3000;
+            Velocidade_Motor_2 = DESLIGAR;
+            ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, Velocidade_Motor_1);
+            ledc_set_duty(LEDC_MODE_2, LEDC_CHANNEL_2, Velocidade_Motor_2);
+            break;
+        case 6: // se receber Bleft
+            Velocidade_Motor_1 = 3000;
+            Velocidade_Motor_2 = DESLIGAR;
+            ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, Velocidade_Motor_1);
+            ledc_set_duty(LEDC_MODE_2, LEDC_CHANNEL_2, Velocidade_Motor_2);
+            break;
+        case 7: // Se receber  Forward
+            Velocidade_Motor_1 = 8000;
+            Velocidade_Motor_2 = 8000;
+            ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, Velocidade_Motor_1);
+            ledc_set_duty(LEDC_MODE_2, LEDC_CHANNEL_2, Velocidade_Motor_2);
+            break;
+        case 8: // Se receber Back
+            Velocidade_Motor_1 = DESLIGAR;
+            Velocidade_Motor_2 = DESLIGAR;
+            ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, Velocidade_Motor_1);
+            ledc_set_duty(LEDC_MODE_2, LEDC_CHANNEL_2, Velocidade_Motor_2);
+            break;
 
-        ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, Velocidade_PWM);
+        default:
+            break;
+        }
         // aguarda novo valor
         ledc_update_duty(LEDC_MODE, LEDC_CHANNEL);
+        ledc_update_duty(LEDC_MODE_2, LEDC_CHANNEL_2);
     }
 }
 
-/// @brief Task que Gerencia os dados a telemetria do bluetooth
-/// @param arg
 void xBluetooth(void *arg)
 {
-    static bool led = 0;
-    static int pisca_led = 0;
-    // const char *data = "recebi";
-
+    char conversao[300];
     while (1)
     {
         vTaskDelay(pdMS_TO_TICKS(200));
-        // printf("\n\r Dados recebidos na task: %s \n\r", received_data);
-        uart_write_bytes(UART_NUM_1, received_data, strlen(received_data));
 
-        led = !led;
-        // gpio_set_level(LED_ESP32, led); // pega o nivel logico do GPIO
-
-        if (received_data[0] == '1')
+        if ((received_data[0] == 'R') && (received_data[1] == 'i') && (received_data[2] == 'g')) // se receber Righ
         {
-            // LIDAR COM LIGAR O LED
-            received_data[0] = 5;
-            pisca_led = 0;
-
-            sprintf(contagem, "\n\r ligando o led \n\r");
-            gpio_set_level(LED_ESP32, 1); // Turn on the LED
+            Controle_ROBO = 1;
+            sprintf(conversao, "Virando para Direita: dados recebidas: %s", received_data);
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
+            uart_write_bytes(UART_NUM_1, conversao, strlen(conversao));
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
         }
-        else if (received_data[0] == '0')
+        else if ((received_data[0] == 'F') && (received_data[1] == 'r') && (received_data[2] == 'i')) // se receber Fright
         {
-            received_data[0] = 5;
-            pisca_led = 0;
-            // lidar com Desligar o LED
-            sprintf(contagem, "\n\r Desligando o led \n\r");
-            gpio_set_level(LED_ESP32, 0);
+            Controle_ROBO = 2;
+            sprintf(conversao, "Virando para Direita: dados recebidas: %s", received_data);
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
+            uart_write_bytes(UART_NUM_1, conversao, strlen(conversao));
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
         }
-        else if (received_data[0] == '2')
+        else if ((received_data[0] == 'B') && (received_data[1] == 'r') && (received_data[2] == 'i')) // se receber Bright
         {
-            received_data[0] = 5;
-            pisca_led = 1;
-            // lidar com piscar o led
-            sprintf(contagem, "\n\r Piscando o led \n\r");
+            Controle_ROBO = 3;
+            sprintf(conversao, "Virando para Direita: dados recebidas: %s", received_data);
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
+            uart_write_bytes(UART_NUM_1, conversao, strlen(conversao));
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
         }
-        else if (received_data[0] == '3')
+        else if ((received_data[0] == 'L') && (received_data[1] == 'e') && (received_data[2] == 'f')) // se receber Left
         {
-            received_data[0] = 5;
-
-            // lidar com o aumento do pwm
-
-            // Velocidade_PWM
-            //  VAI DE 3000 A 8190
-            if (Velocidade_PWM >= 8000)
-            {
-                Velocidade_PWM = 8000;
-            }
-            else
-            {
-                Velocidade_PWM = Velocidade_PWM + 1000;
-            }
-            sprintf(contagem, "\n\r Aumentando Velocidade \n\r");
+            Controle_ROBO = 4;
+            sprintf(conversao, "Virando para Esquerda: dados recebidas: %s", received_data);
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
+            uart_write_bytes(UART_NUM_1, conversao, strlen(conversao));
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
         }
-        else if (received_data[0] == '4')
+        else if ((received_data[0] == 'F') && (received_data[1] == 'l') && (received_data[2] == 'e')) // se receber Fleft
         {
-            received_data[0] = 5;
-
-            // lidar com a diminuição do PWM
-
-            if (Velocidade_PWM == 3000)
-            {
-                Velocidade_PWM = 3000;
-            }
-            else
-            {
-                Velocidade_PWM = Velocidade_PWM - 1000;
-            }
-            sprintf(contagem, "\n\r Diminuindo Velocidade \n\r");
+            Controle_ROBO = 5;
+            sprintf(conversao, "Virando para Esquerda: dados recebidas: %s", received_data);
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
+            uart_write_bytes(UART_NUM_1, conversao, strlen(conversao));
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
         }
-        else if (received_data[0] == '6')
+        else if ((received_data[0] == 'B') && (received_data[1] == 'l') && (received_data[2] == 'e')) // se receber Bleft
         {
-            received_data[0] = 5;
-
-            // lidar com a desligar pwm
-            Velocidade_PWM = DESLIGAR;
-
-            sprintf(contagem, "\n\r DESLIGANDO PWM \n\r");
+            Controle_ROBO = 6;
+            sprintf(conversao, "Virando para Esquerda: dados recebidas: %s", received_data);
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
+            uart_write_bytes(UART_NUM_1, conversao, strlen(conversao));
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
         }
-        else if (received_data[0] == '5')
+        else if ((received_data[0] == 'F') && (received_data[1] == 'o') && (received_data[2] == 'r')) // Se receber  Forward
         {
-            uart_write_bytes(UART_NUM_1, "\n\r Aguardando Dado..", 20);
+            Controle_ROBO = 7;
+            sprintf(conversao, "Andando em frente: dados recebidas: %s", received_data);
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
+            uart_write_bytes(UART_NUM_1, conversao, strlen(conversao));
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
         }
-
-        if (pisca_led == 1)
+        else if ((received_data[0] == 'B') && (received_data[1] == 'a') && (received_data[2] == 'c')) // Se receber Back
         {
-            gpio_set_level(LED_ESP32, led);
+            Controle_ROBO = 8;
+            sprintf(conversao, "Andando para trás: dados recebidas: %s", received_data);
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
+            uart_write_bytes(UART_NUM_1, conversao, strlen(conversao));
+            uart_write_bytes(UART_NUM_1, "\n\r", 2);
+        }
+        else{
+            Controle_ROBO = DESLIGAR;
         }
     }
 }
 
-/// @brief Task que Gerencia os dados a via Comunicação UART
-/// @param arg
-// void xUART(void *arg)
-// {
-//     static uint16_t receivedByte = 0;
-//     static bool Is_Sequence_Started = false;
-//     static uint8_t byte_Counter = 0;
-//     static uint8_t buffer[10] = 0;
-//     // Is it a sequence to start
-//     char Data_receive_Serial_Bus[Size_Max_Data];
-//     while (1)
-//     {
-//         int RxUART2 = uart_read_bytes(UART_NUM_2, Data_receive_Serial_Bus, Size_Max_Data, pdMS_TO_TICKS(200));
-//         while (RxUART2)
-//         {
-//             uint8_t receivedByte = uart_read_bytes(UART_NUM_2, Data_receive_Serial_Bus, Size_Max_Data, pdMS_TO_TICKS(200));
-//             // Serial.println(receivedByte, HEX);
-
-//             if (receivedByte == 0x55)
-//             {
-
-//                 Is_Sequence_Started = true;
-//                 byte_Counter = 0;
-//             }
-
-//             if (Is_Sequence_Started)
-//             {
-//                 buffer[byte_Counter] = receivedByte;
-//                 byte_Counter++;
-
-//                 if (byte_Counter >= 3)
-//                 {
-//                     Is_Sequence_Started = false;
-
-//                     for (int i = 0; i < 3; i++)
-//                         buffer[i];
-//                 }
-//             }
-//         }
-//     }
-// }
-
-/// @brief Task que Gerencia os dados a via Comunicação UART
-/// @param arg
-void xUART(void *arg)
+void xLED(void *arg)
 {
-    char Data_receive_Serial_Bus[Max_Sequence_Length];
-    uint8_t buffer[Max_Sequence_Length];
-    uint8_t sequenceLength = 0;
-    bool isSequenceStarted = false;
-
+    static bool led = 0;
     while (1)
     {
-        // Aguarda interrupção ou timeout para a leitura da UART
-        int RxUART2 = uart_read_bytes(UART_NUM_2, Data_receive_Serial_Bus, Max_Sequence_Length, pdMS_TO_TICKS(200));
-
-        if (RxUART2 > 0)
-        {
-            for (int i = 0; i < RxUART2; i++)
-            {
-                // Verifica se é o byte de sincronização
-                if (Data_receive_Serial_Bus[i] == Sync_Byte)
-                {
-                    // Reinicia o buffer e a contagem da sequência
-                    sequenceLength = 0;
-                    isSequenceStarted = true;
-                }
-
-                // Armazena o byte no buffer se a sequência está em andamento
-                if (isSequenceStarted && sequenceLength < Max_Sequence_Length)
-                {
-                    buffer[sequenceLength] = Data_receive_Serial_Bus[i];
-                    sequenceLength++;
-
-                    // Verifica se a sequência foi completada
-                    if (sequenceLength >= 3)
-                    {
-                        // Faça algo com a sequência completa aqui
-                        // ...
-
-                        // Reinicia a contagem da sequência
-                        sequenceLength = 0;
-                        isSequenceStarted = false;
-                    }
-                }
-            }
-        }
+        led = !led;
+        gpio_set_level(LED_ESP32, led);
+        vTaskDelay(pdMS_TO_TICKS(350));
     }
 }
 
@@ -392,7 +347,7 @@ void app_main()
         .clk_cfg = LEDC_AUTO_CLK};
     ledc_timer_config(&ledc_timer);
 
-    //========================== Prepara o canal do PWM =======================//
+    //========================== Prepara o canal 1 do PWM =======================//
     ledc_channel_config_t ledc_channel = {
         .speed_mode = LEDC_MODE,
         .channel = LEDC_CHANNEL,
@@ -402,6 +357,18 @@ void app_main()
         .duty = 0, // Set duty to 0%
         .hpoint = 0};
     ledc_channel_config(&ledc_channel);
+
+    //========================== Prepara o canal 2 do PWM =======================//
+
+    ledc_channel_config_t ledc_channel_2 = {
+        .speed_mode = LEDC_MODE_2,
+        .channel = LEDC_CHANNEL_2,
+        .timer_sel = LEDC_TIMER_2,
+        .intr_type = LEDC_INTR_DISABLE,
+        .gpio_num = LEDC_OUTPUT_IO_2,
+        .duty = 0, // Set duty to 0%
+        .hpoint = 0};
+    ledc_channel_config(&ledc_channel_2);
 
     //================================GPIO LED=================================//
 
@@ -427,7 +394,6 @@ void app_main()
     uart_driver_install(UART_NUM_1, BUF_SIZE * 2, 0, 0, NULL, 0);
 
     xTaskCreatePinnedToCore(xPWM, "xPWM", 2048, NULL, 1, NULL, 1);
-    xTaskCreatePinnedToCore(xUART, "xUART", 2048, NULL, 1, NULL, 1);
+    xTaskCreatePinnedToCore(xLED, "xLED", 2048, NULL, 2, NULL, 0);
     xTaskCreatePinnedToCore(xBluetooth, "xBluetooth", 2048, NULL, 1, NULL, 0);
-
 }

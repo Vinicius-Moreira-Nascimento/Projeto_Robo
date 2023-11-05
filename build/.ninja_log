@@ -892,3 +892,857 @@
 372688	376265	7159217446247208	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing-sbc.c.obj	2de48b28ce42edf1
 373058	376731	7159217450723927	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/dequant.c.obj	eaf732b388e06b0c
 372972	376882	7159217452475296	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/decoder-sbc.c.obj	7e60699f27da9f4d
+309	1094	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+309	1094	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+309	1094	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+309	1094	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+309	1094	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+309	1094	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+309	1094	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+309	1094	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+1115	8439	7208365943910417	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_analysis.c.obj	5aecc58e40483b40
+361	8477	7208365943130539	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidd_api.c.obj	6f01fccc0ef646c8
+447	8500	7208365943829670	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-sbc.c.obj	b37de0d1a09d0e23
+326	8531	7208365943592422	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_sdp.c.obj	97433514e6206997
+342	8572	7208365943910417	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_utils.c.obj	e8d8c926d1e9f7ea
+380	8595	7208365943829670	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_tg.c.obj	ff63cdd8e8da70f0
+8532	9009	7208365951834625	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.c.obj	305965c06843ad73
+494	11176	7208365969033722	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.c.obj	13ea3983de329fcf
+471	11986	7208365980264064	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/synthesis-dct8.c.obj	a609994118733f4
+8478	14436	7208366004552306	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.c.obj	ed26d73ba4d8bd39
+8501	14566	7208366005432637	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.c.obj	b17a54277cecd5d9
+8605	14653	7208366005643234	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/plc/sbc_plc.c.obj	a07411014f3a2a6b
+8441	14747	7208366008683346	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.c.obj	868ed9a8ec9ea190
+8573	14789	7208366008410313	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_dct.c.obj	4195642b47992afa
+9010	16058	7208366019199435	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_encoder.c.obj	7c716b9c4e8d9d76
+14437	16985	7208366030053300	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_audio.c.obj	ef55bcc062d72a82
+11987	17804	7208366038590216	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/encoder/srce/sbc_packing.c.obj	b2fd032c7c706015
+14749	21395	7208366072416148	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_factory.c.obj	53a71c8c1f8e8371
+14791	21579	7208366072703737	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/packet_fragmenter.c.obj	dd605d847fe2722b
+14567	21650	7208366073101330	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_layer.c.obj	67e260ec3ee8744d
+16986	23052	7208366091201171	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_api.c.obj	b1ea7f07519c514c
+17805	23582	7208366096528186	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/a2dp/a2d_sbc.c.obj	9d33d16bdc25dbfc
+423	24794	7208366107722780	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/framing.c.obj	cede9bb3bac07d7a
+21580	26632	7208366127306986	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_api.c.obj	7648d597d4849782
+23053	26919	7208366130001909	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_ccb.c.obj	e8320650167c3fc2
+21651	27714	7208366138033703	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb.c.obj	df2e70bb6316d88b
+21396	27761	7208366138512281	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_init.c.obj	7e456d72552939ba
+23583	28575	7208366145299004	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_l2c.c.obj	5b3d7c65016db9eb
+24859	29747	7208366158050764	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avct/avct_lcb_act.c.obj	8789e814a14646e8
+26920	31634	7208366177379726	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ad.c.obj	fbf17b6968edfc13
+26633	31972	7208366180700429	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb.c.obj	895bf2bc871b3ba5
+27715	32815	7208366188799034	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_l2c.c.obj	d232d4087a52c51d
+27763	32969	7208366190550931	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_api.c.obj	47d309c287427fe8
+28576	33693	7208366195408810	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_ccb_act.c.obj	9a906feccd526d6a
+29748	34835	7208366208897882	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_msg.c.obj	b5e33b0435f8d061
+31635	36400	7208366223651235	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_api.c.obj	7bf1b68a139bd5bc
+31973	36922	7208366230152004	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb.c.obj	9b28770854a8dda
+32970	37961	7208366240467042	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_opt.c.obj	266a91d57cfe2d24
+32816	38704	7208366248024075	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avdt/avdt_scb_act.c.obj	28d3db65024e6ac0
+33694	38764	7208366248300623	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_tg.c.obj	dc78228212261291
+34836	39700	7208366257101372	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_pars_ct.c.obj	ac9beb45b4fca0b2
+36401	41034	7208366270233910	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/avrc/avrc_bld_ct.c.obj	327dcf91b768d33e
+36924	42157	7208366281675833	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidh_api.c.obj	54c7eae18aefa43e
+38765	43567	7208366296900033	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidd_conn.c.obj	32fe68f643611ad5
+38705	43702	7208366296449761	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hid/hidh_conn.c.obj	791473cd62630648
+37963	44088	7208366300952807	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_acl.c.obj	56c523b6271cf093
+39701	44922	7208366310702336	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble.c.obj	adfaadbfc8b2f9a3
+14655	44968	7208366091700733	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_packet_parser.c.obj	de91deb4f44c6851
+41035	46231	7208366322628161	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_batchscan.c.obj	2094fb1fd816ca79
+42158	48170	7208366341951112	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_addr.c.obj	72705e003e7b79e8
+43703	48447	7208366344647753	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_adv_filter.c.obj	26f8f40657e270a5
+44089	49386	7208366353852204	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_multi_adv.c.obj	1bba0e7f5bb3c57d
+43568	50150	7208366362220037	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_bgconn.c.obj	5f024733862e6c32
+44969	51657	7208366375901935	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_gap.c.obj	a94b070b90c2da2a
+44923	51965	7208366379898360	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_5_gap.c.obj	a72c3084f35b363a
+46232	52135	7208366379702082	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_cont_energy.c.obj	ad1435ebf0c82783
+48448	54444	7208366405417752	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_main.c.obj	b78e0e856ff66ca2
+48172	55205	7208366412626196	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_devctl.c.obj	685b7748ca1c3cbd
+11177	55325	7208366057249253	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/hci/hci_hal_h4.c.obj	1c93bca5a1dd8bfb
+49387	56158	7208366421899258	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_inq.c.obj	fc68efdfe36bc1ef
+50151	56315	7208366423452385	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_dev.c.obj	5f44c7779858e1bd
+51658	56578	7208366426298886	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_ble_privacy.c.obj	1af30461a730c480
+51966	57804	7208366438150651	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sco.c.obj	62815abfa6426013
+52136	58583	7208366445019366	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_hcif.c.obj	362139d2fc3a8864
+56159	60914	7208366469801502	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_ble.c.obj	39574a1d6d3cf5f1
+54445	61218	7208366471604666	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_pm.c.obj	68fd5daccb20ce62
+55326	62165	7208366480601663	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_init.c.obj	f4c45a45d45a823c
+56316	62745	7208366487299799	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_conn.c.obj	755cb153cdb48e21
+58584	63132	7208366491999355	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/att_protocol.c.obj	b4138604bc126035
+55207	64623	7208366505429391	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btm/btm_sec.c.obj	704d7906dd79369
+57805	65383	7208366513101392	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/btu/btu_task.c.obj	48044e80de9fee0f
+16060	66524	7208366092099551	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/main/bte_main.c.obj	cbef89fe86071808
+62746	67777	7208366537648399	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_auth.c.obj	b7b2baf17494d99b
+63134	67915	7208366539950451	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_sr.c.obj	4d536abda2dcb871
+61219	68148	7208366540801893	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_utils.c.obj	da849d8c3b8e2f7f
+64624	69599	7208366556748823	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_cl.c.obj	62d88c3592a5096c
+65384	70295	7208366562008540	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_main.c.obj	f3d0ff2e1e4d95ec
+66525	71522	7208366575272464	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_db.c.obj	27f34d577d3977fa
+69600	73374	7208366592797601	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_utils.c.obj	ce49ad35dfd05278
+67778	73397	7208366592097387	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hciblecmds.c.obj	4bedc616eb376ff
+60915	73765	7208366540549333	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_attr.c.obj	e717e39a3d818b60
+67916	75027	7208366608097452	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_api.c.obj	18c4393eaa69bf38
+56579	75224	7208366486427750	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gap/gap_api.c.obj	4f6e1d44057d7d79
+70296	76580	7208366625369880	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_link.c.obj	8250bd669e25d62a
+75113	76989	7208366629974148	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2cap_client.c.obj	98541e49712f7bd
+71547	77790	7208366637298569	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_csm.c.obj	773180c754a6191c
+73767	79320	7208366653340868	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ble.c.obj	5968f271d2f6ccef
+73399	80953	7208366669649027	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_fcr.c.obj	fb9ada058528fb7b
+75225	81333	7208366673898085	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_api.c.obj	e4e1422d53556321
+76581	82147	7208366682048612	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_ucd.c.obj	da55559b4e4fefc3
+77791	82895	7208366688580073	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_utils.c.obj	a9ef58ccdf493305
+76991	83628	7208366697041121	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_utils.c.obj	993d0a1baeff8e15
+401	84887	7208366367431777	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/external/sbc/decoder/srce/oi_codec_version.c.obj	76be95c9a991895e
+80954	88346	7208366739122485	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_mx_fsm.c.obj	6b8128ae7212bf60
+81334	88383	7208366742952040	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/port_rfc.c.obj	cf291ab32e3f7daa
+82148	90505	7208366764445970	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_fsm.c.obj	a943f5535231d37e
+82897	90911	7208366768950405	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_ts_frames.c.obj	e0ae197be021652e
+83629	92875	7208366786399135	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_api.c.obj	c08cb1a90544ddab
+84888	93701	7208366796555748	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_utils.c.obj	42183038d13e24b3
+88347	95681	7208366813125362	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_port_if.c.obj	9d6469bfc47d908
+88385	96123	7208366819196752	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_server.c.obj	8cbf68bedb1cff04
+90912	98905	7208366849647478	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_main.c.obj	e3e824bc15295550
+93703	99892	7208366858778071	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_multprecision.c.obj	802efb016ac471cc
+96124	100945	7208366871108276	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_curvepara.c.obj	9125b85cc1fb3e21
+95682	101442	7208366876039571	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/aes.c.obj	ebcd4502a0445486
+90506	101632	7208366841796415	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_discovery.c.obj	f2e1ef876cc756b4
+79321	102132	7208366709651321	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/rfcomm/rfc_l2cap_if.c.obj	8f9473e7b59c6fa1
+73375	102476	7208366659748525	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/l2cap/l2c_main.c.obj	e0b0189ec42a8c4d
+99894	104057	7208366901386276	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/p_256_ecc_pp.c.obj	6fe1a482b8afc463
+100946	106282	7208366923369424	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_cmac.c.obj	a0ce79d8d04910c8
+102477	106600	7208366927243757	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_keys.c.obj	ef1d8f7bc4b3d1c3
+102133	107033	7208366930874195	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_br_main.c.obj	647b9e7231e6ffea
+101443	107498	7208366935861248	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_act.c.obj	269a702880c317ba
+92876	109567	7208366862687072	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_db.c.obj	9fd6b142e836606
+106283	110555	7208366966799120	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_main.c.obj	f4548bbdbeca7fb5
+101633	110979	7208366933596640	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_api.c.obj	c819f75cd5d6e8ed
+62166	111250	7208366955630559	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/gatt/gatt_api.c.obj	57496c33e274487b
+107035	111367	7208366974349296	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_l2c.c.obj	7b37ca80542d8dd4
+98906	111664	7208366910582535	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/sdp/sdp_utils.c.obj	3d5099afef72863c
+106601	111690	7208366977623321	esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/bluedroid_host/esp_blufi.c.obj	5573ecdf74ced026
+109568	112473	7208366986250307	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/ecc.c.obj	aca2f50c14d75ad1
+111691	112764	7208366988733970	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/aes_decrypt.c.obj	cbd55a775106633d
+107499	112997	7208366951487881	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/sha256.c.obj	5145ccdd10bf2f0c
+110980	113258	7208366992296034	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/ctr_prng.c.obj	eb5cb1d3a42e6658
+111665	113635	7208366996799095	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/ctr_mode.c.obj	140893f7923fc41d
+112474	114053	7208367001395931	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/ecc_dsa.c.obj	7bec0db95a2e5a54
+111252	114410	7208367003900562	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/ccm_mode.c.obj	248e081711c7b402
+112765	114846	7208367008847770	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/hmac_prng.c.obj	ed48b6539b967725
+113260	115151	7208367011398898	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/cmac_mode.c.obj	c7aeb3d04a3eb3dd
+112998	115548	7208367017236853	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/ecc_dh.c.obj	cf791216e7d3fadb
+114054	115762	7208367017798215	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/hmac.c.obj	39f7e58ced254f0f
+68150	116401	7208366613149928	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/hcic/hcicmds.c.obj	10787b2adb6f3e6
+104058	116420	7208366958947451	esp-idf/bt/CMakeFiles/__idf_bt.dir/host/bluedroid/stack/smp/smp_utils.c.obj	fb69a000a4c20c3e
+113636	116630	7208367015747738	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/ecc_platform_specific.c.obj	1bd292d6f5d6cbbe
+114847	117202	7208367031799765	esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj	75eec46d88ca4ed
+115152	117382	7208367032897728	esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj	12bae4cb51320059
+115763	118909	7208367048964920	esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj	a604c31bccb8a3d4
+117203	119375	7208367055129703	esp-idf/cmock/CMakeFiles/__idf_cmock.dir/CMock/src/cmock.c.obj	c63c68986c3a512a
+116421	119525	7208367056274164	esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj	18cb945357eccd96
+116631	119828	7208367056449674	esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj	98b10ffa4f3167ef
+117383	120012	7208367061548154	esp-idf/console/CMakeFiles/__idf_console.dir/commands.c.obj	8ecf5c9469753680
+119829	121405	7208367075773912	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dstr.c.obj	a79ac67d85d025ef
+119376	121853	7208367079648514	esp-idf/console/CMakeFiles/__idf_console.dir/linenoise/linenoise.c.obj	679015a0d8e4b002
+120013	122073	7208367081049581	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_date.c.obj	d74e7c68135650eb
+118910	122435	7208367084422512	esp-idf/console/CMakeFiles/__idf_console.dir/esp_console_repl.c.obj	f82d5355f4581c97
+121407	122789	7208367089498856	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_dbl.c.obj	d33d78b13e441bca
+116403	123306	7208367054396239	esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj	47be244b7e97a0db
+121854	123566	7208367095641378	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_end.c.obj	9e4a27454e99b08d
+122074	123731	7208367099096754	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_cmd.c.obj	43a4dec3b1d13d4
+122436	123973	7208367100497002	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.obj	ba2a99141624c7a4
+122790	124655	7208367107348254	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.obj	2d9e0755f71691ea
+123307	124988	7208367110624411	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.obj	e871df2262ecb098
+123567	125558	7208367116948986	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_hashtable.c.obj	9ac724a51c71ecab
+123732	125759	7208367117997374	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_file.c.obj	e7271c50d216df60
+119526	125906	7208367071644438	esp-idf/console/CMakeFiles/__idf_console.dir/split_argv.c.obj	9ce442900fa2d7f2
+123974	126398	7208367125337812	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.obj	ed218a6be39c8329
+124656	127004	7208367131448599	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.obj	2da36718e78ef703
+125559	127222	7208367133049303	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.obj	4c86d6d9828701cd
+124989	127370	7208367134350698	esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.obj	1024e935df734054
+114411	128804	7208367018798893	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/cbc_mode.c.obj	1bc8487b8bec8256
+110556	128896	7208366990598191	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/utils.c.obj	3205cf84edcf208e
+125907	129397	7208367154846007	esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj	d3666cf5093185b8
+111368	130041	7208367161782836	esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/ext/tinycrypt/src/aes_encrypt.c.obj	a398575d4e0233a8
+127005	130715	7208367167695290	esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/bt_hidh.c.obj	b8e004e742a82a35
+127223	130734	7208367167497755	esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/bt_hidd.c.obj	be8b7be398f29df9
+128897	131140	7208367171798372	esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj	6088cb788687ee30
+128805	131307	7208367172549918	esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/ble_hidd.c.obj	ce542bca59443103
+115550	133024	7208367191496926	esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj	221e4700e8a4fc9d
+130735	133238	7208367192648467	esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj	f5e14b5c9419f1dc
+133025	134110	7208367202298992	esp-idf/unity/libunity.a	9a6eb8fd6535c32c
+129398	134197	7208367202849385	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj	2a91fefddc2d383
+131142	134263	7208367201496952	esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj	f33d97ae80a3bb86
+131308	134580	7208367205896949	esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj	c4545e2d30b67caa
+134110	134998	7208367211998952	esp-idf/cmock/libcmock.a	48fbe71792750aa7
+130042	135058	7208367212672449	esp-idf/bt/libbt.a	f05e80f96b9de63c
+133239	136053	7208367220741063	esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj	e9a91fb0c43e2b84
+134999	137159	7208367227898533	esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj	64e610d63343a35d
+134202	137569	7208367233743334	esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj	1b0d90e187babc1a
+135060	138458	7208367245098136	esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/protobuf-c/protobuf-c/protobuf-c.c.obj	b27be927b0e95cd6
+137160	138733	7208367248617277	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/constants.pb-c.c.obj	43912bf1dd5e1f22
+126399	138820	7208367152447215	esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/ble_hidh.c.obj	1a853c9684641b8b
+136054	138842	7208367249433932	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj	c2f95eb5e89c7296
+138459	139423	7208367256228909	esp-idf/protobuf-c/libprotobuf-c.a	1587fc47b9c7e29e
+134581	139580	7208367256097763	esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.obj	e4ce1d4a4df1aa0c
+137570	139715	7208367257095832	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec0.pb-c.c.obj	d3fd7e41371fa248
+138734	141255	7208367270298601	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj	cd1b9b282c64e21
+138844	141318	7208367272495432	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec1.pb-c.c.obj	328e85539f92358
+139424	142175	7208367282247716	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec2.pb-c.c.obj	a7a29035bebd1c2c
+138821	142651	7208367287226297	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj	47aaee8ec9e24102
+139581	142775	7208367288812383	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj	d56533b46db095de
+139716	143740	7208367298751576	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj	b4934c4427b58ff0
+142652	145295	7208367313646608	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj	9d69005eee68cd1b
+142176	145914	7208367320594760	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj	d1f36b3e30911a7d
+127371	146163	7208367323249283	esp-idf/console/libconsole.a	5e58afa1c71c502f
+141256	147524	7208367335535049	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj	a5a5e3c708d28273
+143855	147602	7208367336945574	esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj	8ca6872dae0c82a9
+145915	147853	7208367339812845	esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj	84fecd68fa3f2905
+145296	148042	7208367341647616	esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_ble.c.obj	20965e712be95b0c
+147854	150087	7208367362105567	esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_checksum.c.obj	7bbfd116202ed6ea
+147604	151500	7208367374894946	esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_common.c.obj	3dc85af0872ada85
+148044	151870	7208367380276518	esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj	9c8f1ad27c5a1463
+130716	152054	7208367381020521	esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj	19c07edd18e3aff3
+125760	152133	7208367152295694	esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj	f5fe346fbae698f1
+147525	152169	7208367375577403	esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_httpd.c.obj	b838101a22ab8c4c
+152134	153965	7208367400731302	esp-idf/esp_hid/libesp_hid.a	c7f71b2a35afce73
+150088	155064	7208367411605807	esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_flash.c.obj	99586c1657d0910
+146164	155624	7208367352014853	esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj	644b77829ed7a5b0
+141319	155735	7208367310716417	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_ble.c.obj	919ccad084a66532
+151502	155832	7208367419154043	esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj	7f9148aebdbdd3a
+152055	155850	7208367419154043	esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_port.c.obj	a2757156afef057b
+151871	155869	7208367418063847	esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_binary.c.obj	6a0390f226a1f190
+142776	156015	7208367421084555	esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/simple_ble/simple_ble.c.obj	8beb2535d78ba23f
+134264	156197	7208367423338366	esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.obj	117147db8399f8b6
+156016	156729	7208367426281286	esp-idf/protocomm/libprotocomm.a	fcd495eaa138f040
+155870	156827	7208367428134865	esp-idf/espcoredump/libespcoredump.a	de97e247714d56a4
+156199	156932	7208367430817024	esp-idf/esp_lcd/libesp_lcd.a	693ba8821b0ea14d
+156730	157493	7208367435161487	esp-idf/esp_local_ctrl/libesp_local_ctrl.a	aeb754c967613a94
+155065	159961	7208367455636294	esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj	f17eb03ada4c70d0
+152170	159993	7208367456925307	esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj	8e0d99134d6da115
+155833	160157	7208367455676305	esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj	a28364fd977a6987
+155736	160438	7208367459881541	esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj	4e65979df70c05d8
+156933	161675	7208367474351609	esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.obj	3c2d6dccb3b618a
+155625	161877	7208367474688118	esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj	f864fb75a91c3a25
+156828	161923	7208367475471846	esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.obj	96b83daefc7990ec
+157494	163651	7208367494334186	esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.obj	7aa215631474d5c4
+160158	165862	7208367519045727	esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj	8e2d06dd1acc091c
+159995	166291	7208367518910134	esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.obj	74efc7246290b5d0
+159962	167198	7208367528946618	esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.obj	c01b3d5c862511db
+161879	167759	7208367537564111	esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj	1b855dc5c502ad71
+161924	167993	7208367539846080	esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj	a1675249fa1f0b47
+167199	168168	7208367542894006	esp-idf/sdmmc/libsdmmc.a	7bad3a806adf9f1
+165863	169826	7208367557497343	esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj	18a8ee28a236211b
+166292	171120	7208367571119427	esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj	5affe270de27e5
+167994	171272	7208367572396129	esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj	981f8144e722cd94
+169827	172657	7208367588426100	esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON_Utils.c.obj	61b760a4e27dcf68
+160561	173272	7208367534047359	esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj	3778e0238519a0b3
+161676	173299	7208367538135300	esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj	714d9a4d5e810d5c
+171273	174210	7208367603644804	esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj	f16814351b431e8e
+153965	174358	7208367454987833	esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj	cafc46eeff66fb3f
+174211	175645	7208367617741347	esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj	831b668b22c48446
+173273	175887	7208367618613566	esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj	6df1ab70c7d2060e
+174359	175950	7208367620231821	esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj	2e5e8d348239b933
+173300	176186	7208367622595630	esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj	f3e6f36899d85a07
+175646	178129	7208367640797269	esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj	310be4e300fdcbc2
+178130	178465	7208367646794369	esp-idf/perfmon/libperfmon.a	4f1e3fa0bbbb586
+175951	178692	7208367647285308	esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj	c777379a7c916827
+175889	179239	7208367653346978	esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj	65e996356cc1662a
+176187	179339	7208367653848134	esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj	9915ac918929ad5a
+178693	181210	7208367673746114	esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj	af4724ad79187107
+179240	181683	7208367678020815	esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj	d1c870349159649
+179340	183077	7208367692328659	esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj	486eb5eb98a9e497
+181211	185000	7208367706393587	esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.obj	6c3aac3b3570ba9d
+181684	185535	7208367714544416	esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.obj	d676d685e626501a
+178465	186674	7208367681308362	esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj	606055d1bc3572b3
+171121	188632	7208367706358460	esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON.c.obj	1aaf55c985ed73f
+188633	189193	7208367753897084	esp-idf/json/libjson.a	e95dd9b2540dd784
+155852	189942	7208367760696670	esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj	b0441b96da0eab8b
+185536	190018	7208367760294433	esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.obj	a4b43126c3998bd2
+186675	190036	7208367762046410	esp-idf/spiffs/libspiffs.a	c803b09e0a60a02e
+183078	190086	7208367760395759	esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.obj	4ff53a95cf137786
+172658	190849	7208367669393824	esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj	aa7ef2955e239ce7
+189943	191010	7208367771953896	esp-idf/wear_levelling/libwear_levelling.a	b6325a9f880c5c53
+190850	192049	7208367781395905	esp-idf/mqtt/libmqtt.a	df60e16953d217aa
+189194	192121	7208367780493982	esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.obj	a76f0b3901930087
+190037	192444	7208367784495386	esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.obj	496c8aece92f5ab7
+190019	192449	7208367783593523	esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.obj	469194be05baf0b0
+168168	194196	7208367803595596	esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj	7405588d03309e53
+167760	194334	7208367580846233	esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj	c7febe5684cc253c
+185002	194588	7208367758596399	esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.obj	9ed374e7a747c51a
+163652	194600	7208367550095292	esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj	1a8271c31f78400b
+190087	194865	7208367799448082	esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.obj	c31e836cb300cffd
+194601	194998	7208367812310460	esp-idf/fatfs/libfatfs.a	f95b4c5e1fa10f4a
+191011	195337	7208367810193106	esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_ble.c.obj	47df0ce03093f79
+195339	195752	7208367819746526	esp-idf/wifi_provisioning/libwifi_provisioning.a	554a8459c2b7a512
+192050	195846	7208367819645877	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+195847	196043	7208367822793286	esp-idf/main/libmain.a	ff0353ed401397b4
+196044	207553	7208367937396285	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+196044	207553	7208367937396285	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+207554	207969	7208367941816976	CMakeFiles/Projeto_Robo.elf.dir/project_elf_src_esp32.c.obj	7032e27ae684d7c7
+207970	214630	7208368008198796	Projeto_Robo.elf	31e25271c43802fa
+214631	215402	7208368016393444	.bin_timestamp	5b9a1a97f6d14da9
+214631	215402	7208368016393444	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+215402	215629	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+215402	215629	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+172	616	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+172	616	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+172	616	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+172	616	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+172	616	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+172	616	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+172	616	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+172	616	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+185	1884	7208374591633052	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1886	2071	7208374593985682	esp-idf/main/libmain.a	ff0353ed401397b4
+2072	11163	7208374684489016	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+2072	11163	7208374684489016	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+11164	16879	7208374741726216	Projeto_Robo.elf	31e25271c43802fa
+16880	17541	7208374748786282	.bin_timestamp	5b9a1a97f6d14da9
+16880	17541	7208374748786282	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+17542	17754	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17542	17754	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17756	30821	0	CMakeFiles/flash	7b91f994db0aad31
+17756	30821	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+140	547	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+140	547	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+140	547	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+140	547	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+140	547	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+140	547	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+140	547	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+140	547	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+156	1666	7208375735468570	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1668	1822	7208375737503302	esp-idf/main/libmain.a	ff0353ed401397b4
+1823	10156	7208375820416936	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1823	10156	7208375820416936	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10156	15662	7208375875413054	Projeto_Robo.elf	31e25271c43802fa
+15663	16320	7208375882504433	.bin_timestamp	5b9a1a97f6d14da9
+15663	16320	7208375882504433	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16321	16516	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16321	16516	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16518	28715	0	CMakeFiles/flash	7b91f994db0aad31
+16518	28715	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+322	587	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+322	587	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+305	769	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+305	769	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+305	769	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+305	769	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+305	769	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+305	769	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+305	769	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+305	769	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+770	17943	0	CMakeFiles/flash	7b91f994db0aad31
+770	17943	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+238	742	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+238	742	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+238	742	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+238	742	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+238	742	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+238	742	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+238	742	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+238	742	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+142	582	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+142	582	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+142	582	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+142	582	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+142	582	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+142	582	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+142	582	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+142	582	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+155	2909	7208508050744863	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+2910	3225	7208508054479599	esp-idf/main/libmain.a	ff0353ed401397b4
+3226	13350	7208508155363250	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+3226	13350	7208508155363250	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+13351	19869	7208508220543913	Projeto_Robo.elf	31e25271c43802fa
+19869	20602	7208508228240017	.bin_timestamp	5b9a1a97f6d14da9
+19869	20602	7208508228240017	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+20602	20818	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+20602	20818	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+162	409	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+162	409	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+147	561	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+147	561	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+147	561	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+147	561	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+147	561	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+147	561	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+147	561	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+147	561	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+562	13711	0	CMakeFiles/flash	7b91f994db0aad31
+562	13711	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+157	572	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+157	572	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+157	572	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+157	572	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+157	572	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+157	572	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+157	572	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+157	572	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+171	1743	7208510342076282	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1744	1896	7208510344143562	esp-idf/main/libmain.a	ff0353ed401397b4
+1896	10219	7208510426936429	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1896	10219	7208510426936429	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10220	15749	7208510482036998	Projeto_Robo.elf	31e25271c43802fa
+15750	16440	7208510489592353	.bin_timestamp	5b9a1a97f6d14da9
+15750	16440	7208510489592353	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16441	16647	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16441	16647	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16649	30248	0	CMakeFiles/flash	7b91f994db0aad31
+16649	30248	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+144	592	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+144	592	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+144	592	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+144	592	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+144	592	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+144	592	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+144	592	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+144	592	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+159	1785	7208511318733078	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1787	1944	7208511320932544	esp-idf/main/libmain.a	ff0353ed401397b4
+1945	10287	7208511403771149	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1945	10287	7208511403771149	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10287	15957	7208511460633081	Projeto_Robo.elf	31e25271c43802fa
+15958	16718	7208511468633274	.bin_timestamp	5b9a1a97f6d14da9
+15958	16718	7208511468633274	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16718	16910	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16718	16910	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16913	30009	0	CMakeFiles/flash	7b91f994db0aad31
+16913	30009	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+157	635	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+157	635	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+157	635	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+157	635	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+157	635	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+157	635	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+157	635	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+157	635	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+171	2036	7208512457130031	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+2037	2194	7208512459291972	esp-idf/main/libmain.a	ff0353ed401397b4
+2195	10910	7208512545975816	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+2195	10910	7208512545975816	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10911	16506	7208512601930043	Projeto_Robo.elf	31e25271c43802fa
+16507	17147	7208512608854305	.bin_timestamp	5b9a1a97f6d14da9
+16507	17147	7208512608854305	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+17148	17353	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17148	17353	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17355	30477	0	CMakeFiles/flash	7b91f994db0aad31
+17355	30477	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+162	666	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+162	666	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+162	666	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+162	666	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+162	666	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+162	666	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+162	666	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+162	666	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+176	5397	7209122764350740	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+5398	5667	7209122767698492	esp-idf/main/libmain.a	ff0353ed401397b4
+5667	15938	7209122869947189	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+5667	15938	7209122869947189	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+15939	22503	7209122935507203	Projeto_Robo.elf	31e25271c43802fa
+22509	23175	7209122942669730	.bin_timestamp	5b9a1a97f6d14da9
+22509	23175	7209122942669730	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+23176	23372	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+23176	23372	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+153	366	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+153	366	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+140	511	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+140	511	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+140	511	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+140	511	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+140	511	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+140	511	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+140	511	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+140	511	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+512	13700	0	CMakeFiles/flash	7b91f994db0aad31
+512	13700	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+164	378	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+164	378	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+149	519	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+149	519	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+149	519	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+149	519	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+149	519	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+149	519	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+149	519	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+149	519	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+520	14128	0	CMakeFiles/flash	7b91f994db0aad31
+520	14128	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+221	498	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+221	498	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+203	659	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+203	659	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+203	659	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+203	659	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+203	659	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+203	659	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+203	659	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+203	659	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+158	368	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+158	368	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+143	501	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+143	501	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+143	501	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+143	501	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+143	501	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+143	501	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+143	501	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+143	501	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+502	14325	0	CMakeFiles/flash	7b91f994db0aad31
+502	14325	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+159	548	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+159	548	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+159	548	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+159	548	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+159	548	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+159	548	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+159	548	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+159	548	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+173	1817	7209132683497519	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1818	1982	7209132685892904	esp-idf/main/libmain.a	ff0353ed401397b4
+1982	10416	7209132769710530	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1982	10416	7209132769710530	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10417	16320	7209132828744781	Projeto_Robo.elf	31e25271c43802fa
+16321	16961	7209132835690776	.bin_timestamp	5b9a1a97f6d14da9
+16321	16961	7209132835690776	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16961	17170	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16961	17170	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17173	31917	0	CMakeFiles/flash	7b91f994db0aad31
+17173	31917	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+165	381	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+165	381	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+152	519	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+152	519	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+152	519	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+152	519	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+152	519	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+152	519	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+152	519	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+152	519	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+520	13937	0	CMakeFiles/flash	7b91f994db0aad31
+520	13937	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+172	791	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+172	791	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+172	791	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+172	791	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+172	791	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+172	791	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+172	791	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+172	791	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+198	2165	7209142966930795	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+2167	2374	7209142969987845	esp-idf/main/libmain.a	ff0353ed401397b4
+2375	10863	7209143054419862	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+2375	10863	7209143054419862	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10863	16397	7209143109708280	Projeto_Robo.elf	31e25271c43802fa
+16398	17081	7209143117031034	.bin_timestamp	5b9a1a97f6d14da9
+16398	17081	7209143117031034	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+17082	17284	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17082	17284	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17287	30389	0	CMakeFiles/flash	7b91f994db0aad31
+17287	30389	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+154	367	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+154	367	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+140	505	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+140	505	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+140	505	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+140	505	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+140	505	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+140	505	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+140	505	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+140	505	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+506	13759	0	CMakeFiles/flash	7b91f994db0aad31
+506	13759	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+205	638	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+205	638	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+205	638	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+205	638	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+205	638	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+205	638	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+205	638	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+205	638	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+221	1968	7209158220275886	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1969	2147	7209158222740638	esp-idf/main/libmain.a	ff0353ed401397b4
+2148	10527	7209158306084612	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+2148	10527	7209158306084612	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10527	16446	7209158365289485	Projeto_Robo.elf	31e25271c43802fa
+16447	17106	7209158372369515	.bin_timestamp	5b9a1a97f6d14da9
+16447	17106	7209158372369515	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+17107	17291	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17107	17291	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17294	30382	0	CMakeFiles/flash	7b91f994db0aad31
+17294	30382	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+164	558	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+164	558	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+164	558	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+164	558	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+164	558	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+164	558	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+164	558	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+164	558	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+178	1734	7209159277470788	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1736	1888	7209159279660559	esp-idf/main/libmain.a	ff0353ed401397b4
+1889	9971	7209159359914743	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1889	9971	7209159359914743	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+9971	15441	7209159414750791	Projeto_Robo.elf	31e25271c43802fa
+15442	16110	7209159421763477	.bin_timestamp	5b9a1a97f6d14da9
+15442	16110	7209159421763477	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16110	16299	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16110	16299	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16302	29568	0	CMakeFiles/flash	7b91f994db0aad31
+16302	29568	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+143	549	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+143	549	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+143	549	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+143	549	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+143	549	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+143	549	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+143	549	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+143	549	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+159	1985	7209163129588134	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1987	2154	7209163132035735	esp-idf/main/libmain.a	ff0353ed401397b4
+2155	11183	7209163221854307	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+2155	11183	7209163221854307	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+11183	16597	7209163275989648	Projeto_Robo.elf	31e25271c43802fa
+16599	17225	7209163282765230	.bin_timestamp	5b9a1a97f6d14da9
+16599	17225	7209163282765230	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+17225	17415	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17225	17415	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17417	30850	0	CMakeFiles/flash	7b91f994db0aad31
+17417	30850	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+163	575	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+163	575	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+163	575	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+163	575	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+163	575	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+163	575	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+163	575	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+163	575	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+137	504	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+137	504	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+137	504	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+137	504	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+137	504	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+137	504	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+137	504	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+137	504	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+136	510	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+136	510	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+136	510	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+136	510	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+136	510	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+136	510	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+136	510	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+136	510	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+179	593	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+179	593	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+179	593	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+179	593	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+179	593	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+179	593	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+179	593	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+179	593	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+200	1710	7209188188379592	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1713	1869	7209188190382440	esp-idf/main/libmain.a	ff0353ed401397b4
+1869	10264	7209188273904679	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1869	10264	7209188273904679	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10265	16004	7209188331287962	Projeto_Robo.elf	31e25271c43802fa
+16005	16653	7209188338178105	.bin_timestamp	5b9a1a97f6d14da9
+16005	16653	7209188338178105	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16653	16845	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16653	16845	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16847	36990	0	CMakeFiles/flash	7b91f994db0aad31
+16847	36990	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+157	373	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+157	373	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+144	514	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+144	514	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+144	514	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+144	514	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+144	514	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+144	514	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+144	514	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+144	514	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+515	15218	0	CMakeFiles/flash	7b91f994db0aad31
+515	15218	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+149	592	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+149	592	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+149	592	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+149	592	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+149	592	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+149	592	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+149	592	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+149	592	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+165	1855	7209200553092968	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1857	2028	7209200555233168	esp-idf/main/libmain.a	ff0353ed401397b4
+2029	10339	7209200637922234	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+2029	10339	7209200637922234	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10339	16051	7209200695026616	Projeto_Robo.elf	31e25271c43802fa
+16052	16689	7209200701920044	.bin_timestamp	5b9a1a97f6d14da9
+16052	16689	7209200701920044	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16690	16882	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16690	16882	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16884	32047	0	CMakeFiles/flash	7b91f994db0aad31
+16884	32047	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+137	546	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+137	546	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+137	546	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+137	546	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+137	546	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+137	546	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+137	546	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+137	546	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+154	1695	7209201947482221	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1696	1860	7209201949598330	esp-idf/main/libmain.a	ff0353ed401397b4
+1860	10299	7209202033676201	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1860	10299	7209202033676201	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10299	16158	7209202092214708	Projeto_Robo.elf	31e25271c43802fa
+16198	16849	7209202099609736	.bin_timestamp	5b9a1a97f6d14da9
+16198	16849	7209202099609736	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16849	17044	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16849	17044	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17047	37207	0	CMakeFiles/flash	7b91f994db0aad31
+17047	37207	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+138	533	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+138	533	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+138	533	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+138	533	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+138	533	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+138	533	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+138	533	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+138	533	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+151	1801	7209205605013057	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1803	1958	7209205606876910	esp-idf/main/libmain.a	ff0353ed401397b4
+1958	10394	7209205690888394	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1958	10394	7209205690888394	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10395	16222	7209205749090165	Projeto_Robo.elf	31e25271c43802fa
+16223	17152	7209205758977664	.bin_timestamp	5b9a1a97f6d14da9
+16223	17152	7209205758977664	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+17152	17358	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17152	17358	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17361	32291	0	CMakeFiles/flash	7b91f994db0aad31
+17361	32291	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+132	511	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+132	511	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+132	511	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+132	511	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+132	511	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+132	511	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+132	511	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+132	511	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+145	1681	7209206609343661	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1682	1822	7209206611263290	esp-idf/main/libmain.a	ff0353ed401397b4
+1822	10136	7209206693945683	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1822	10136	7209206693945683	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10136	15519	7209206747830770	Projeto_Robo.elf	31e25271c43802fa
+15520	16469	7209206757760385	.bin_timestamp	5b9a1a97f6d14da9
+15520	16469	7209206757760385	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16470	16675	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16470	16675	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16677	31605	0	CMakeFiles/flash	7b91f994db0aad31
+16677	31605	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+166	565	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+166	565	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+166	565	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+166	565	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+166	565	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+166	565	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+166	565	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+166	565	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+180	1815	7209228123564209	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1816	2063	7209228126479735	esp-idf/main/libmain.a	ff0353ed401397b4
+2064	10566	7209228211235268	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+2064	10566	7209228211235268	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10566	16668	7209228272090895	Projeto_Robo.elf	31e25271c43802fa
+16669	17344	7209228279419159	.bin_timestamp	5b9a1a97f6d14da9
+16669	17344	7209228279419159	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+17344	17534	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17344	17534	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+166	389	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+166	389	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+152	528	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+152	528	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+152	528	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+152	528	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+152	528	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+152	528	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+152	528	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+152	528	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+529	13679	0	CMakeFiles/flash	7b91f994db0aad31
+529	13679	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+146	563	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+146	563	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+146	563	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+146	563	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+146	563	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+146	563	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+146	563	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+146	563	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+160	1751	7209233281540917	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1753	1968	7209233283800903	esp-idf/main/libmain.a	ff0353ed401397b4
+1969	10284	7209233366854168	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1969	10284	7209233366854168	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10284	15975	7209233423780548	Projeto_Robo.elf	31e25271c43802fa
+15976	16660	7209233431043413	.bin_timestamp	5b9a1a97f6d14da9
+15976	16660	7209233431043413	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16661	16847	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16661	16847	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16849	30138	0	CMakeFiles/flash	7b91f994db0aad31
+16849	30138	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+159	548	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+159	548	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+159	548	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+159	548	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+159	548	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+159	548	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+159	548	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+159	548	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+174	1712	7209235631870405	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1715	1873	7209235633791967	esp-idf/main/libmain.a	ff0353ed401397b4
+1874	10574	7209235720344473	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1874	10574	7209235720344473	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10575	15999	7209235774587522	Projeto_Robo.elf	31e25271c43802fa
+16000	16654	7209235781495281	.bin_timestamp	5b9a1a97f6d14da9
+16000	16654	7209235781495281	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16654	16844	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16654	16844	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16846	29987	0	CMakeFiles/flash	7b91f994db0aad31
+16846	29987	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+173	603	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+173	603	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+173	603	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+173	603	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+173	603	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+173	603	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+173	603	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+173	603	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+186	1915	7209241359570051	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1917	2072	7209241361671117	esp-idf/main/libmain.a	ff0353ed401397b4
+2072	10483	7209241445337564	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+2072	10483	7209241445337564	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10484	16329	7209241503754465	Projeto_Robo.elf	31e25271c43802fa
+16330	17052	7209241511443170	.bin_timestamp	5b9a1a97f6d14da9
+16330	17052	7209241511443170	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+17052	17265	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17052	17265	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+17267	30390	0	CMakeFiles/flash	7b91f994db0aad31
+17267	30390	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
+168	618	7159215665080558	bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+168	618	7159215665080558	bootloader/bootloader.elf	4791e733f3dc68d6
+168	618	7159215665080558	bootloader/bootloader.bin	4791e733f3dc68d6
+168	618	7159215665080558	bootloader/bootloader.map	4791e733f3dc68d6
+168	618	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	4791e733f3dc68d6
+168	618	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.elf	4791e733f3dc68d6
+168	618	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.bin	4791e733f3dc68d6
+168	618	7159215665080558	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/bootloader/bootloader.map	4791e733f3dc68d6
+188	1751	7209244049999392	esp-idf/main/CMakeFiles/__idf_main.dir/mcpwm_servo_control_example_main.c.obj	ce9d1501d6544c97
+1753	1909	7209244051984646	esp-idf/main/libmain.a	ff0353ed401397b4
+1910	10179	7209244134216251	esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+1910	10179	7209244134216251	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esp_system/ld/sections.ld	a232acfde0713d65
+10179	15670	7209244189133748	Projeto_Robo.elf	31e25271c43802fa
+15671	16360	7209244196448985	.bin_timestamp	5b9a1a97f6d14da9
+15671	16360	7209244196448985	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/.bin_timestamp	5b9a1a97f6d14da9
+16361	16557	0	esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16361	16557	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	6ae91787b5414984
+16560	29679	0	CMakeFiles/flash	7b91f994db0aad31
+16560	29679	0	C:/Users/vinicius/Desktop/Projeto SAE/Projeto_Robo/build/CMakeFiles/flash	7b91f994db0aad31
