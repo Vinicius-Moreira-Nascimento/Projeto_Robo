@@ -5,7 +5,6 @@
 ## Disciplina: Sistemas Embarcos em Tempo Real 
 
 ## Criadores do Projeto
-### Renan Pinheiro da Silva     Ra° 735729
 ### Vinicius Moirera Nascimento Ra° 734551
 
 O "Projeto Base para Integração entre Bluetooth, PWM e UART em RTOS" é um plano de desenvolvimento que visa criar uma estrutura sólida para a interconexão de tecnologias-chave, como Bluetooth, PWM (Modulação por Largura de Pulso) e UART (Universal Asynchronous Receiver/Transmitter) em um ambiente de sistema operacional em tempo real (RTOS). Este projeto oferece uma base sólida para a construção de sistemas complexos que exigem comunicação sem fio, controle de dispositivos e sincronização de tarefas em tempo real, promovendo a eficiência e a confiabilidade em aplicações variadas.
